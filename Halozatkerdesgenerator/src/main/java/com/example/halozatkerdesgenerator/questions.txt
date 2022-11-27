@@ -1,0 +1,104 @@
+1. Mik az ISO-OSI hálózati referenciamodell hálózati rétegének főbb feladatai? 
+2. Mi az ISO-OSI hálózati referenciamodell fizikai rétegének legfőbb feladata?
+3. Mik az ISO-OSI hálózati referenciamodell adatkapcsolati rétegének főbb feladatai?
+4. Mik az ISO-OSI hálózati referenciamodell szállítási rétegének főbb feladatai?
+5. Sorolja fel az ISO-OSI hálózati referenciamodell egyes rétegeit?
+6. Mi a hasonlóság és a lényeges különbség az adatkapcsolati réteg adatfolyam vezérlése és a hálózati réteg torlódásvezérlése között?
+7. Mik az üzenetkapcsolt hálózat főbb jellemzői?
+8. Mik a csomagkapcsolt hálózat főbb jellemzői?
+9. Mik a vonalkapcsolt hálózat főbb jellemzői?
+10. Mik a virtuális vonalkapcsolat hálózat főbb jellemzői?
+11. Mik az üzenetszórásos csatornák főbb jellemzőik?
+12. Milyen problémát kell megoldani az üzenetszórásos csatornák alkalmazásakor?
+13. Mik az előnyei csomagkapcsolásnak az üzenetkapcsolással szemben?
+14. Milyen technikákat alkalmaz a TCP protokoll a küldött szegmensek biztonságossorrend helyes átvitelére, illetve a kommunikáció adatfolyam szabályozására?
+15. Honnan tudhatja a TCP protokoll esetében egy állomás, hogy új kapcsolati kérelmét az ellenállomás elfogadta?
+16. Mivel jelzi a TCP protokoll esetében egy állomás, hogy új kapcsolatot szeretnefelépíteni?
+17. Milyen szolgálatot biztosít a TCP/IP protokoll stack UDP-je?
+18. Hogyan kell értelmezni a TCP fejrész "Sequence Number" 32 bites mezőjét?
+19. Milyen szolgálatot biztosít a TCP/IP protocol stack TCP-je?
+20. Hogyan jelzi a TCP a protokollban a fogyasztó forrásnak, hogy nem vételkész?
+21. Mely rétegben helyezkedik el, és milyen funkciót biztosít a TCP/IP protokoll stack ARP-je?
+22. Mely rétegben helyezkedik el, és milyen funkciót biztosít a TCP/IP protokoll stack ICMP-je?
+23. Mi a szerepük a virtuális LAN-oknak (VLAN) a hidakból kialakított hálózatokon?
+24. Mik az előnyei az RTS-CTS kereteknek az IEEE 802.11 WLAN közeghozzáférésvezérlési eljárásában?
+25. Mi a közeghozzáférés vezérlés alréteg legfőbb feladata?
+26. Milyen esetben van az adatkapcsolati rétegben szerepe a közeghozzáférés vezérlésalrétegnek?
+27. Milyen közeghozzáférés vezérlési eljárást alkalmaz az IEEE 802.11 WLAN?
+28. Mi a szerepe a „Pause Frame”-nek (802.3x) az Ethernet, Fast Ethernet, illetve a Gigabit Ethernet közeghozzáférés vezérlési protokolljában?
+29. Milyen esetben alkalmaz „Pause Frame”-et (802.3x) az Ethernet, Fast Ethernet, illetve a Gigabit Ethernet közeghozzáférés vezérlési protokolljában?
+30. Milyen előnyökkel jár a „Store-and-Forward” („Tárol és továbbít”) üzemmód alkalmazása a „Cut through” technológiával szemben transzparens hidak esetében
+31. Milyen előnyökkel jár a „Cut through” technológia alkalmazása transzparens hidak esetében?
+32. Milyen hátrányokkal járhat a „Cut through” technológia alkalmazása transzparenshidak esetében?
+33. Mit jelent a „Cut through” technológia transzparens hidak esetében?
+34. Melyik rétegben helyezkedik el, és hogyan működik az Ethernet jelismétlő (repeater)?
+35. Hogyan kezeli az Ethernet (802.3) többportos jelismétlő (multiport repeater) az ütközéseket?
+36. A 10Base2 Ethernet (vékony koaxiális kábel) milyen típusú csatornaként használja a koaxiális kábelt?
+37. Full duplex link esetén milyen adatfolyam szabályozási technikát alkalmaz az Ethernet,Fast Ethernet,illetve a Gigabit Ethernet?
+38. Mi az Ethernet, Fast Ethernet, Gigabit Ethernet esetében a full duplex link?
+39. Mit nevezünk Ethernet, Fast Ethernet, illetve Gigabit Ethernet esetében „half duplex link”-nek?
+40. Mit jelent az, hogy a feszítőfás (spanning tree) transzparens hidak, csak „részleges” forgalomirányítást végeznek?
+41. Mi a szerepe a feszítőfa (spanning tree) kialakításának a transzparens hidak esetén?
+42. Mi a szerepe az "adóablaknak" a forgóablakos elemi adatkapcsolati protokollban?
+43. Mi a szerepe a „vevőablaknak” a forgóablakos elemi adatkapcsolati protokollban?
+44. Hogyan működik a forgóablakos elemi adatkapcsolati protokoll?
+45. Milyen alrétegekre bomlik az adatkapcsolati réteg üzenetszórás csatorna esetén?
+46. Mit nevezzünk egy kód Hamming távolságának?
+47. Mit nevezzünk két kódszó Hamming távolságának?
+48. Milyen router-eket nevezünk multiprotokoll router-nek?
+49. Milyen router-eket nevezünk bridge router-nek?
+50. Mik a transzparens bridge-k előnyei a router-ekhez képest?
+51. Mik a routerek előnyei a transzparens bridge-ekhez képest?
+55. Mi a lényeges különbség a közvetlen és a közvetett hibavédelem között?
+56. Alkalmas-e egy hibajavító kódolás a hiba jelzésére?
+57. Mi az optikai kábelek működésének alapötlete?
+58. Mi a lényeges különbség a multimódusú és a monomódusú optikai szálak között?
+59. A multimódusú optikai szálak esetében fellépő „diszperziót” milyen fizikai jelenség okozza?
+60. A multimódosú optikai szálak esetében fellépő „diszperzió” hogyan befolyásolja az valamely adatátviteli sebesség mellett az áthidalható távolságot?
+61. Mi a lényeges különbség az optikai szálak meleg és hideg toldása között?
+62. Milyen dinamikus ütközésmentes csatornamegosztási módszereket ismer?
+63. Milyen dinamikus versengéses csatornamegosztási módszereket ismer?
+64. Mik az előnyei a dinamikus csatornamegosztási módszereknek a statikushoz képest?
+65. Milyen jellegű forgalom esetén előnyösebb a dinamikus csatornamegosztás a statikushoz képest?
+66. Milyen statikus csatornamegosztási módszereket ismer?
+67. Hogyan működik az Aloha protokoll?
+68. Miért növeli meg az Aloha protokoll hatékonyságát a „réselés”?
+69. Miért kell megszámozni a küldött kereteket a szimplex protokoll zajos csatornára (PAR) elemi adatkapcsolati protokoll esetében?
+70. Hogyan működik a szimplex protokoll zajos csatornára (PAR) elemi adatkapcsolati protokoll?
+71. Miért elég egy bit a küldött keretek megszámozására a szimplex protokoll zajos csatornára (PAR) elemi adatkapcsolati protokoll esetében?
+72. Milyen előfeltevések mellett helyes a szimplex megáll és vár elemi adatkapcsolati protokoll?
+73. Mi az alapötlete az adatkapcsolati réteg „bitbeszúrásos” keretezési módszerének?
+74. Hogyan mûködik az elárasztásos forgalomirányítási módszerek "szelektív elárasztásos" fékezési mechanizmusa?
+75. Hogyan működik az elárasztásos forgalomirányítási módszerek "csomag sorszámozásos" fékezési mechanizmusa?
+76. Hogyan működik az elárasztásos forgalomirányítási módszerek "ugrásszámlálásos" fékezési mechanizmusa?
+77. Mi a szerepe a „fékezési mechanizmusoknak” az elárasztásos forgalomirányítási módszerekben?
+78. Milyen üzenetszórásos kapcsolatok kialakítására alkalmas fizikai közegeket ismer?
+79. Milyen pont-pont kapcsolatokból felépülő "üzenetszórásos" hálózati topológiákat ismer?
+80. Milyen lépésekből áll és hogyan történik két állomás között az IPv4 csomag továbbítás folyamata, ha azok közös üzenetszórásos adatkapcsolati rétegen helyezkednek el?
+82. Soroljon fel néhány alapvető különbséget az IPv6 és IPv4 IP fejléc (header) között?
+83. Mit jelent az IPv4 címek esetén az "osztály nélküli" címzés (Classless Inter-Domain Routing(CIDR))?
+84. A változó hosszúságú IPv4 maszkolás esetén (Variable Length Subnet Mask,VLSM, (RFC 1009)),ha valamely cél cím több hálózatra (irányra)is illeszkedik,hogyan dönti el a router,hogy merre továbbítsa a csomagot?
+85. Miért kell az IPv4 "osztály nélküli" címzés(Classless Inter-Domain Routing (CIDR)) esetén a routing információs protokolloknak a kiterjesztett prefixet(subnet maszkot) is továbbítania?
+86. Miért van szükség „lokális címtartományok” (IANA, RFC 1918) definiálására Ipv4 esetében?
+87. Mit jelent a default route (0.0.0.0.0.0.0.0) az IPv4 routing táblában?
+88. Milyen formákban jelölhetjük és mi a szerepe az Ipv4 címek mellett szereplő maszknak?
+89. Hogyan kezelik a rajtuk áthaladó IPv4 csomagok fejrész TTL(time to live) mezőjét az egyes forgalomirányítók(routerek)?
+90. Mi a szerepe az IPv4 fejrészben a TTL (time to live) mezőnek?
+91. Mikor illeszkedik egy router tábla bejegyzésre valamely IPv4 cím?
+92. Milyen pont-pont kapcsolatok kialakítására alkalmas fizikai közegeket ismer?
+93. Hogyan működik a NAT átjáró?
+94. Mi a lényeges különbség az 1perzisztens CSMA és a nemperzisztens CSMA működése között?
+95. Hogyan működik az 1 perzisztens CSMA/CD?
+96. Hogyan működik a nem perzisztens CSMA?
+97. Hogyan működik a p-perzisztens CSMA?
+98. Hogyan működnek a vezérjeles ütközésmentes protokollok?
+99. Mik az ütközésmentes csatorna megosztási módszerek hatékonyságának általános jellemzőik?
+100. Miért javítja csatornafigyelő protokollok hatékonyságát az ütközésérzékelés?
+103. ARP
+104. ICMP:
+109. Milyen módszert alkalmaznak az IPv6-ban a 2.szintű címek megkeresésére?
+110. Mit jelent az „Anycast” cím típus az IPv6 címek esetében?
+111. Hány bitesek és hogyan jelöljük az IPv6 címeket?
+142.Milyen dinamikus csatornamegosztási módszereket ismer?
+146.Mi a közeghozzáférés vezérlés alréteg legfőbb feladata?
+

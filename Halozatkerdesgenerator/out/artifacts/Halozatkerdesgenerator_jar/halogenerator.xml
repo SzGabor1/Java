@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>E:\PROGRAMOZAS\javaEgyetem\Halozatkerdesgenerator\out\artifacts\Halozatkerdesgenerator_jar\Halozatkerdesgenerator.jar</jar>
+  <outfile>E:\PROGRAMOZAS\javaEgyetem\Halozatkerdesgenerator\out\artifacts\Halozatkerdesgenerator_jar\HaloGyakorlo.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
